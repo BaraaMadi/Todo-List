@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'MuseoModerno', cursive;
+  color: #a5a1a1; 
+}
+.list-banner {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.add-mylist form input[type="text"] {
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-bottom: 1px solid #ccc9c9;
+  margin-right: 5px;
+
+}
+.add-mylist form input[type="submit"] {
+  border: 0;
+  background: none;
+  padding: 10px 15px;
+  color:#a5a1a1;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+}
+.add-mylist form input[type="submit"]:hover {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+}
+.show-mylist{
+  color:#764ba2;
+  font-weight: 800;
+  margin: 10px auto;
+}
+.show-mylist input[type="checkbox" ], .show-mylist span {
+  margin-right: 15px;
+}
+.show-mylist input[type="checkbox"]{
+ 
+}
