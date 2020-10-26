@@ -1,3 +1,11 @@
+<h1> Todo List </h1>
+
+<strong>Features : </strong>
++ Show List of Tasks
++ Add  NewTask
++ Check Task for done
++ Delete Task
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
